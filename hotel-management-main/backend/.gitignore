@@ -1,0 +1,23 @@
+# Node modules (huge folder, don't push)
+node_modules/
+
+# Environment variables (secrets like JWT key, DB creds)
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts (if you ever use TypeScript / dist builds)
+dist/
+build/
+
+# Coverage reports (if you use testing)
+coverage/
